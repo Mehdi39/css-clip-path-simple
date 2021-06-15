@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    height: 100vh;
+    background: #DCF5FF;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    background: rgb(9, 201, 153);
+    padding: 1em;
+    border-radius: 10px;
+    width: 250px;
+    clip-path: circle(10% at 90% 20%);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.inner:hover {
+    clip-path: circle(75%);
+    background: #00b6ff;
+}
+
+.inner h1 {
+    color: white;
+    margin: 0;
+}
+
+.inner p {
+    color: white;
+    font-size: .8rem;
+}
+
+.inner span {
+    float: right;
+    color: white;
+    font-weight: bold;
+    transition: color .5s;
+    position: relative;
+    margin-right: 4%;
+}
